@@ -1,0 +1,17 @@
+{
+  "name": "YourApp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": ">=2.5.8",
+    "backbone.io": ">=0.2.4",
+    "mongoose": ">=2.5.12"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6.13"
+  },
+  "author": "Your Name",
+  "description": "Test"
+}
