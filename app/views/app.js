@@ -2,12 +2,11 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'models/test'
-  ], function ($, _, Backbone, Test){
+  'backboneio'
+  ], function ($, _, Backbone, bio){
   var AppView = Backbone.View.extend({
 
     el: $("#test"),
-    model: new Test,
 
     initialize: function() {
 

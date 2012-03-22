@@ -7,9 +7,8 @@ require.config({
 		"backbone": "./libs/backbone-amd-min",
 		"text": "./require-text",
 		"order": "./require-order",
-		"socketio": "socket.io/socket.io",
-		"backboneio": "socket.io/backbone.io",
-
+		"socketio": "/socket.io/socket.io",
+		"backboneio": "./libs/backbone-io-amd",
 	}
 });
 
